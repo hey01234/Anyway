@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <title>Airdrop</title>
+</head>
+<body class="bg-[#171F2A] text-white font-sans">
+
+  <div class="max-w-md mx-auto p-6">
+    <!-- Buttons Section (first 2 buttons) -->
+    <div class="space-y-2">
+      <!-- Your Balance Button (with same-sized circle before the 0) -->
+      <div class="flex items-center px-3 py-1 bg-[#202A39] rounded-lg text-sm">
+        <span class="ml-2 text-gray-400">Your balance</span>
+        <div 
+          class="w-3.5 h-3.5 bg-white rounded-full mx-2 flex-shrink-0"></div> <!-- Adjusted circle size -->
+        <strong class="text-white">50</strong>
+      </div>
+
+      <!-- Connect TON -->
+      <div class="flex items-center p-5 bg-[#202A39] rounded-lg text-sm">
+        <div class="w-10 h-10 bg-[#0197EB] rounded-lg flex items-center justify-center">
+          <span class="text-white font-bold text-lg">T</span>
+        </div>
+        <span class="ml-4 text-sm">Connect TON</span>
+        <i class="fas fa-check text-green-500 ml-auto text-xs"></i> <!-- Coche verte à droite -->
+      </div>
+    </div>
+
+    <!-- Space between the first two buttons and the rest -->
+    <div class="my-8"></div> <!-- This creates the space between sections -->
+
+    <!-- Buttons Section (next 3 buttons) -->
+    <div class="space-y-2">
+      <!-- Get More Button -->
+      <div class="flex items-center p-5 bg-[#202A39] rounded-lg text-sm">
+        <div class="w-10 h-10 bg-[#0197EB] rounded-lg flex items-center justify-center">
+          <span class="text-white font-bold text-lg">+</span>
+        </div>
+        <span class="ml-4 text-sm">Get more</span>
+      </div>
+
+      <!-- Invite Friends -->
+      <div class="flex items-center p-5 bg-[#202A39] rounded-lg text-sm">
+        <div class="w-10 h-10 bg-[#0197EB] rounded-lg flex items-center justify-center">
+          <span class="text-white font-bold text-lg">F</span>
+        </div>
+        <span class="ml-4 text-sm">Invite friends</span>
+      </div>
+
+      <!-- Leaderboard -->
+      <div class="flex items-center p-5 bg-[#202A39] rounded-lg text-sm">
+        <div class="w-10 h-10 bg-[#0197EB] rounded-lg flex items-center justify-center">
+          <span class="text-white font-bold text-lg">$</span>
+        </div>
+        <span class="ml-4 text-sm">Leaderboard</span>
+      </div>
+
+      <!-- About -->
+      <div class="flex items-center p-5 bg-[#202A39] rounded-lg text-sm">
+        <div class="w-10 h-10 bg-[#0197EB] rounded-lg flex items-center justify-center">
+          <span class="text-white font-bold text-lg">A</span>
+        </div>
+        <span class="ml-4 text-sm">About</span>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
